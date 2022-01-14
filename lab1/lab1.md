@@ -6,5 +6,46 @@ With SSH, you can do everything you'd want to do on the server, from the comfort
 You will send commands to the server, and after the server is done executing those commands, it will send the output text back like what any computer terminal does.
 
 # Step 1: Install VSCode
-This isn't really necessary but this tutorial will be using the Shell (console) that VSCode comes with.
+This isn't really necessary but this tutorial will be using the Shell (terminal) that VSCode comes with.
 Go to here (https://code.visualstudio.com/download) to download VSCode.
+![VSCode download page](/VSCode_download.png)
+
+# Step 2: Remotely Connecting
+First, you need to install OpenSSH. Use the following tutorial from everybody's good friend Microsoft: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
+
+Then, open up VSCode and open its built in terminal from "Terminal -> New Terminal"
+![Opening up a terminal instance](/VSCode_terminal_menu.png)
+
+Type in the following command into the terminal:
+> ssh cs15lwi22**ABC**@ieng6.ucsd.edu
+Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool (https://sdacs.ucsd.edu/~icc/index.php).
+![Command typed into terminal](/SSH_command.png)
+
+Hit enter and login using your account password. **You need to 'reset' your password on the ETS Account Lookup Tool in order to activate the account.**
+Your password will not appear in the box while typing, so try not to make any typos.
+
+Once logged in, the server will send some status info that looks like this:
+![Server status](/Server_status.png)
+
+# Step 3: Trying some commands
+Useful and fundamental commands include:
+> cd (change directory)
+> ls (list)
+> cp (copy)
+> cat (concatenate)
+**cd** is used to move around the file hierarchy
+**list** shows directory contents and details
+**copy** copies files and directories
+**cat** prints file contents
+
+For more details, type the command followed by -help, like **ls --help**
+![ls help blurb](/ls_help.png)
+
+# Step 4: Moving files with scp
+With scp, you can send files over the SSH connection into the server from your client.
+First, type `exit` and hit enter to return to your client's terminal session. Everything you do from here will be ran on your own computer, not the server.
+Find a small file worth copying. Let's say it is a text file named "text.txt" The command you want to run is as follows:
+> scp text.txt cs15lwi22**ABC**@ieng6.ucsd.edu:~/
+
+**scp** takes two arguments: the name of the file to be copied and the destination. The :~/ at the end of the destination statement is to specify the home directory.
+[scp command](/scp_command.png)
