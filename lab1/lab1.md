@@ -46,7 +46,7 @@ Useful and fundamental commands include:
 
 For more details, type the command followed by -help, like **ls --help**
 
-![ls help blurb](lab1/ls_help.png)
+![ls help blurb](ls_help.png)
 
 # Step 4: Moving files with scp
 With scp, you can send files over the SSH connection into the server from your client.
