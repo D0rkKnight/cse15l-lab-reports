@@ -8,24 +8,24 @@ You will send commands to the server, and after the server is done executing tho
 # Step 1: Install VSCode
 This isn't really necessary but this tutorial will be using the Shell (terminal) that VSCode comes with.
 Go to here (https://code.visualstudio.com/download) to download VSCode.
-![VSCode download page](lab1/VSCode_download.png)
+![VSCode download page](VSCode_download.png)
 
 # Step 2: Remotely Connecting
 First, you need to install OpenSSH. Use the following tutorial from everybody's good friend Microsoft: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
 
 Then, open up VSCode and open its built in terminal from "Terminal -> New Terminal"
-![Opening up a terminal instance](lab1/VSCode_terminal_menu.png)
+![Opening up a terminal instance](VSCode_terminal_menu.png)
 
 Type in the following command into the terminal:
 > ssh cs15lwi22**ABC**@ieng6.ucsd.edu
 Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool (https://sdacs.ucsd.edu/~icc/index.php).
-![Command typed into terminal](lab1/SSH_command.png)
+![Command typed into terminal](SSH_command.png)
 
 Hit enter and login using your account password. **You need to 'reset' your password on the ETS Account Lookup Tool in order to activate the account.**
 Your password will not appear in the box while typing, so try not to make any typos.
 
 Once logged in, the server will send some status info that looks like this:
-![Server status](lab1/Server_status.png)
+![Server status](Server_status.png)
 
 # Step 3: Trying some commands
 Useful and fundamental commands include:
@@ -48,14 +48,14 @@ Find a small file worth copying. Let's say it is a text file named "text.txt" Th
 > scp text.txt cs15lwi22**ABC**@ieng6.ucsd.edu:~/
 
 **scp** takes two arguments: the name of the file to be copied and the destination. The :~/ at the end of the destination statement is to specify the home directory.
-[scp command](lab1/scp_command.png)
+[scp command](scp_command.png)
 
 # Setting an SSH Key
 Logging in is annoying, so we can automate login procedures (like inputting passwords) with SSH keys. We will be generating RSA private-public key pairs and giving the public key to the server to this end.
 
 Begin by executing `ssh-keygen` in your **client** terminal.
 Then, go to C:/Users/your_user/.ssh/ to find your private and public keys.
-![SSH folder](lab1/ssh_folder.png)
+![SSH folder](ssh_folder.png)
 
 My private key is not in the folder because I hid it, but yours should be present.
 Then, copy the public key into the server's .ssh folder. If this folder does not exist, you may need to ssh in and use **mkdir** to create one.
@@ -71,6 +71,6 @@ SSHing in and out is slow. Instead, you can send commands while staying in your 
 
 You can also send multiple commands in one line by separating them with semicolons
 > ls -a; cd .ssh; ls
-![Argument stringing](lab1/arg_concat.png)
+![Argument stringing](arg_concat.png)
 
 By now, you should be basically familiar with SSH and how useful it is. Enjoy having to work from home too. There is no escape. :)
