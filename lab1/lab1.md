@@ -75,4 +75,4 @@ You can also send multiple commands in one line by separating them with semicolo
 > ls -a; cd .ssh; ls
 ![Argument stringing](arg_concat.png)
 
-By now, you should be basically familiar with SSH and how useful it is. Enjoy having to work from home too. There is no escape. :)
+By now, you should be basically familiar with SSH and how useful it is. SSH can be used to do many more things and is a key tool in the IT industry, but those are outside the purview of this tutorial. Happy coding! :)
