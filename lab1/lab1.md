@@ -30,15 +30,15 @@ Once logged in, the server will send some status info that looks like this:
 
 # Step 3: Trying some commands
 Useful and fundamental commands include:
-> cd (change directory)
-> ls (list)
-> cp (copy)
-> cat (concatenate)
+> cd (change directory) \
+> ls (list) \
+> cp (copy) \
+> cat (concatenate) \
 
-**cd** is used to move around the file hierarchy \n
-**list** shows directory contents and details \n
-**copy** copies files and directories \n
-**cat** prints file contents
+- **cd** is used to move around the file hierarchy
+- **list** shows directory contents and details
+- **copy** copies files and directories
+- **cat** prints file contents
 
 For more details, type the command followed by -help, like **ls --help**
 ![ls help blurb](lab1/ls_help.png)
