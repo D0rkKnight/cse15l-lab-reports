@@ -18,6 +18,7 @@ Then, open up VSCode and open its built in terminal from "Terminal -> New Termin
 
 Type in the following command into the terminal:
 > ssh cs15lwi22**ABC**@ieng6.ucsd.edu
+
 Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool (https://sdacs.ucsd.edu/~icc/index.php).
 ![Command typed into terminal](SSH_command.png)
 
@@ -33,9 +34,10 @@ Useful and fundamental commands include:
 > ls (list)
 > cp (copy)
 > cat (concatenate)
-**cd** is used to move around the file hierarchy
-**list** shows directory contents and details
-**copy** copies files and directories
+
+**cd** is used to move around the file hierarchy \n
+**list** shows directory contents and details \n
+**copy** copies files and directories \n
 **cat** prints file contents
 
 For more details, type the command followed by -help, like **ls --help**
