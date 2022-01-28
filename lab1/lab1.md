@@ -58,7 +58,7 @@ Find a small file worth copying. Let's say it is a text file named "text.txt" Th
 
 ```scp``` takes two arguments: the name of the file to be copied and the destination. The :~/ at the end of the destination statement is to specify the home directory.
 
-[scp command](scp_command.png)
+![scp command](scp_command.png)
 
 # Setting an SSH Key
 Logging in is annoying, so we can automate login procedures (like inputting passwords) with SSH keys. We will be generating RSA private-public key pairs and giving the public key to the server to this end.
