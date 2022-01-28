@@ -19,7 +19,7 @@ Then, open up VSCode and open its built in terminal from "Terminal -> New Termin
 ![Opening up a terminal instance](VSCode_terminal_menu.png)
 
 Type in the following command into the terminal:
-> ssh cs15lwi22**ABC**@ieng6.ucsd.edu
+``` ssh cs15lwi22**ABC**@ieng6.ucsd.edu ```
 
 Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool ([here](https://sdacs.ucsd.edu/~icc/index.php)).
 
