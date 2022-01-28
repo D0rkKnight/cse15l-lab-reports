@@ -85,6 +85,8 @@ ssh cs15lwi22**ABC**@ieng6.ucsd.edu "ls"
 You can also send multiple commands in one line by separating them with semicolons
 ```ls -a; cd .ssh; ls```
 
+Using these forbidden techniques, I can optimize sending a remote execution to 2 keystrokes: the up arrow to retrieve the last command, and enter to execute the command from the client terminal. The command in question is a series of commands separated by semicolons. The first command is an scp of the local java file to the server, then the second compiles that java on the server. The third command executes the java program on the server. This can all be done without leaving the client environment through the above techniques.
+
 ![Argument stringing](arg_concat.png)
 
 By now, you should be basically familiar with SSH and how useful it is. SSH can be used to do many more things and is a key tool in the IT industry, but those are outside the purview of this tutorial. Happy coding! :)
