@@ -35,10 +35,10 @@ Once logged in, the server will send some status info that looks like this:
 # Step 3: Trying some commands
 Useful and fundamental commands include:
 ``` 
- cd (change directory) \
- ls (list) \
- cp (copy) \
- cat (concatenate) \
+ cd (change directory)
+ ls (list)
+ cp (copy)
+ cat (concatenate)
 ```
 
 - ```cd``` is used to move around the file hierarchy
@@ -78,7 +78,7 @@ Now you should be able to login without needing to type your password.
 # Optimizing Remote Running
 SSHing in and out is slow. Instead, you can send commands while staying in your client environment by sending the following:
 ```
-ssh cs15lwi22**ABC**@ieng6.ucsd.edu "whatever command" \
+ssh cs15lwi22**ABC**@ieng6.ucsd.edu "whatever command"
 ssh cs15lwi22**ABC**@ieng6.ucsd.edu "ls" 
 ```
 
