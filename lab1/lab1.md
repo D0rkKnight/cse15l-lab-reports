@@ -12,7 +12,7 @@ Go to here (https://code.visualstudio.com/download) to download VSCode.
 ![VSCode download page](VSCode_download.png)
 
 # Step 2: Remotely Connecting
-First, you need to install OpenSSH. Use the following tutorial from everybody's good friend Microsoft: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
+First, you need to install OpenSSH. Use the following tutorial from everybody's good friend Microsoft: [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
 Then, open up VSCode and open its built in terminal from "Terminal -> New Terminal"
 
@@ -21,7 +21,7 @@ Then, open up VSCode and open its built in terminal from "Terminal -> New Termin
 Type in the following command into the terminal:
 > ssh cs15lwi22**ABC**@ieng6.ucsd.edu
 
-Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool (https://sdacs.ucsd.edu/~icc/index.php).
+Instead of **ABC**, type whatever your account name is. You can find the appropriate name on UCSD's ETS Account Lookup Tool ([here](https://sdacs.ucsd.edu/~icc/index.php)).
 
 ![Command typed into terminal](SSH_command.png)
 
