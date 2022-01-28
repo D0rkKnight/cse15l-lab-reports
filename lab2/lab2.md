@@ -3,7 +3,7 @@
 My Git history was messed up so I had to redo my group's bugfixes in a new repo.
 
 # Bug 1
-Symptom:\
+Symptom (infinite loop):\
 ![Symptom 1](err1/err1_symptom.png)
 
 Bugfix:\
