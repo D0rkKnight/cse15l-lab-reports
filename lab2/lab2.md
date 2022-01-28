@@ -12,7 +12,7 @@ Bugfix:\
 Test file:
 [test-file2.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-file2.md)
 
-The program was not quitting when discovering the final link if there was still text left in the file. This was because the exit condition expected the search index to go out of bounds, but the behavior of the program led to looping the search index. This was because indexOf returns -1 when not being able to find the given substring. To fix this error, I just checked if any of the indexOf searches failed.
+The program was not quitting when discovering the final link if there was still text left in the file. This was because the exit condition expected the search index to go out of bounds, but the behavior of the program led to looping the search index. This was because indexOf returns -1 when not being able to find the given substring. To fix this error, we just checked if any of the indexOf searches failed.
 
 # Bug 2
 Symptom:\
