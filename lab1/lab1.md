@@ -7,7 +7,7 @@ You will send commands to the server, and after the server is done executing tho
 
 # Step 1: Install VSCode
 This isn't really necessary but this tutorial will be using the Shell (terminal) that VSCode comes with.
-Go to here (https://code.visualstudio.com/download) to download VSCode.
+Go to [here](https://code.visualstudio.com/download) to download VSCode.
 
 ![VSCode download page](VSCode_download.png)
 
