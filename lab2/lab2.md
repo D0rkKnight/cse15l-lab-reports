@@ -36,4 +36,4 @@ Bugfix:\
 Test file:
 [test-file6.md](https://github.com/ucsd-cse15l-w22/markdown-parse/blob/main/test-file6.md)
 
-The program incorrectly interpreted images and links. To prevent this, we checked if the square bracket block is preceded by an exclamation mark to see if the link should be registered or not. We also check if the square bracket block is at the start of the file, not checking for an exlamation mark if so to avoid an index out of bounds exception.
+The program incorrectly interpreted images and links. To prevent this, we check if the square bracket block is preceded by an exclamation mark to see if the link should be registered or not. We also check if the square bracket block is at the start of the file, not checking for an exlamation mark if so to avoid an index out of bounds exception.
