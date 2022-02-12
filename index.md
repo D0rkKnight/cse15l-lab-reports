@@ -1,7 +1,7 @@
 # Welcome to my site!
-[Lab Report 1](lab1/lab1.md)
-[Lab Report 2](lab2/lab2.md)
-[Lab Report 3](lab3/lab-report-3-week-6.md)
+[Lab Report 1](lab1/lab1.html)
+[Lab Report 2](lab2/lab2.html)
+[Lab Report 3](lab3/lab-report-3-week-6.html)
 
 
 
