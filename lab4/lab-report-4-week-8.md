@@ -6,42 +6,42 @@ Below contains information on every test and test result
 &nbsp;
 
 # Snippet 1
-My test:
+My test:\
 ![Main test 1](test1/main_test_1.png)
 
-Reviewed test:
+Reviewed test:\
 ![Alt test 1](test1/alt_test_1.png)
 
-My code failed:
+My code failed:\
 ![Main fail 1](test1/main_fail_1.png)
 
-Reviewed code failed:
+Reviewed code failed:\
 ![Alt fail 1](test1/alt_fail_1.png)
 
 # Snippet 2
-My test:
+My test:\
 ![Main test 2](test2/main_test_2.png)
 
-Reviewed test:
+Reviewed test:\
 ![Alt test 2](test2/alt_test_2.png)
 
-My code failed:
+My code failed:\
 ![Main fail 2](test2/main_fail_2.png)
 
-Reviewed code failed:
+Reviewed code failed:\
 ![Alt fail 2](test2/alt_fail_2.png)
 
 # Snippet 3
-My test:
+My test:\
 ![Main test 3](test3/main_test_3.png)
 
-Reviewed test:
+Reviewed test:\
 ![Alt test 3](test3/alt_test_3.png)
 
-My code failed:
+My code failed:\
 ![Main fail 3](test3/main_fail_3.png)
 
-Reviewed code failed:
+Reviewed code failed:\
 ![Alt fail 3](test3/alt_fail_3.png)
 
 # Potential Solutions
